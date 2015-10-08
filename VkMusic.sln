@@ -17,13 +17,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{A3E9B41E-0DA
 		lib\avformat-53.dll = lib\avformat-53.dll
 		lib\avutil-51.dll = lib\avutil-51.dll
 		lib\Awesomium.Core.dll = lib\Awesomium.Core.dll
+		lib\Awesomium.Core.XML = lib\Awesomium.Core.XML
 		lib\awesomium.dll = lib\awesomium.dll
 		lib\Awesomium.Mono.dll = lib\Awesomium.Mono.dll
+		lib\Awesomium.Mono.XML = lib\Awesomium.Mono.XML
 		lib\Awesomium.Windows.Controls.dll = lib\Awesomium.Windows.Controls.dll
+		lib\Awesomium.Windows.Controls.XML = lib\Awesomium.Windows.Controls.XML
 		lib\Awesomium.Windows.Forms.dll = lib\Awesomium.Windows.Forms.dll
+		lib\Awesomium.Windows.Forms.XML = lib\Awesomium.Windows.Forms.XML
+		lib\awesomium_process = lib\awesomium_process
 		lib\Hardcodet.Wpf.TaskbarNotification.dll = lib\Hardcodet.Wpf.TaskbarNotification.dll
+		lib\icudt.dll = lib\icudt.dll
+		lib\inspector.pak = lib\inspector.pak
 		lib\libEGL.dll = lib\libEGL.dll
 		lib\libGLESv2.dll = lib\libGLESv2.dll
+		lib\README.txt = lib\README.txt
 		lib\xinput9_1_0.dll = lib\xinput9_1_0.dll
 	EndProjectSection
 EndProject
