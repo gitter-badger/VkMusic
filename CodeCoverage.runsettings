@@ -9,7 +9,7 @@
 
             <ModulePaths>
               <Include>
-                <ModulePath>.*gameoflife.*</ModulePath>
+                <ModulePath>.*vkmusic.*</ModulePath>
               </Include>
             </ModulePaths>
 
