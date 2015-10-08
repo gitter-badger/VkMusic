@@ -3,8 +3,20 @@ os: Visual Studio 2015
 configuration: Release
 platform: Any CPU
 
+environment:
+  COVERALLS_REPO_TOKEN:
+    secure: 4SaOAuPeMLZX3CqGt954jt6ZpvUtS8cJH
+  COVERITY_TOKEN:
+    secure: cOQx9LUnBljbelw1-nBXDA
 install:
 - cmd: set PATH=C:\Program Files (x86)\MSBuild\14.0\Bin;%PATH%
+- ps: .\build.environment.ps1
+- ps: psake .\build.tasks.ps1 appveyor-install
+build_script:
+- ps: psake .\build.tasks.ps1 appveyor-build
+test_script:
+- ps: psake .\build.tasks.ps1 appveyor-test
+
 build:
   project: VkMusic.sln
   parallel: true
