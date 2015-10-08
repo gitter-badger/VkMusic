@@ -197,11 +197,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DAL\VkMusic.DAL.csproj">
+    <ProjectReference Include="..\VkMusic.DAL\VkMusic.DAL.csproj">
       <Project>{7bf17888-40cf-4f30-b61f-a484ecf14f92}</Project>
       <Name>VkMusic.DAL</Name>
     </ProjectReference>
-    <ProjectReference Include="..\VkMusicSync\VkMusic.Sync.csproj">
+    <ProjectReference Include="..\VkMusic.Sync\VkMusic.Sync.csproj">
       <Project>{456b9b2d-5565-4f77-bc3d-144c3cea8b4e}</Project>
       <Name>VkMusic.Sync</Name>
     </ProjectReference>

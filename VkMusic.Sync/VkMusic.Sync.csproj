@@ -77,7 +77,7 @@
     <Compile Include="TrackExtension.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DAL\VkMusic.DAL.csproj">
+    <ProjectReference Include="..\VkMusic.DAL\VkMusic.DAL.csproj">
       <Project>{7bf17888-40cf-4f30-b61f-a484ecf14f92}</Project>
       <Name>VkMusic.DAL</Name>
     </ProjectReference>
