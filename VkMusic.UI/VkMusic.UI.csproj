@@ -7,7 +7,7 @@
     <ProjectGuid>{19DFA5B2-AA07-4295-BB52-7B41FCC3D827}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WpfUI</RootNamespace>
+    <RootNamespace>VkMusic.UI</RootNamespace>
     <AssemblyName>VkMusic</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -56,6 +56,10 @@
     <ApplicationIcon>Images\32_blu.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Hardcodet.Wpf.TaskbarNotification, Version=1.0.5.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Visual Studio 2015\Projects\VkMusic\NotifyIconWpf\bin\Release\Hardcodet.Wpf.TaskbarNotification.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Expression.Drawing, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.Expression.Effects, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.Expression.Interactions" />
@@ -114,7 +118,6 @@
       <DependentUpon>PlayerWindow.xaml</DependentUpon>
     </Compile>
     <None Include="packages.config" />
-    <None Include="Version.base.cs" />
     <Compile Include="ProgressWindow.xaml.cs">
       <DependentUpon>ProgressWindow.xaml</DependentUpon>
     </Compile>
@@ -124,7 +127,6 @@
     <Compile Include="TrackProgress.xaml.cs">
       <DependentUpon>TrackProgress.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Version.cs" />
     <Page Include="AuthorizeWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -230,9 +232,7 @@
     <Resource Include="Images\16_wht.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <UsingTask TaskName="HgVersionFile" AssemblyFile="..\MSBuildVersioning.dll" />
   <Target Name="BeforeBuild">
-    <HgVersionFile TemplateFile="Version.base.cs" DestinationFile="Version.cs" />
   </Target>
   <Target Name="AfterBuild">
   </Target>

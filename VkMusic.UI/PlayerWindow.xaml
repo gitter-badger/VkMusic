@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfUI"
         xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" 
-        xmlns:ed="http://schemas.microsoft.com/expression/2010/drawing" xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions" xmlns:Custom="http://schemas.awesomium.com/winfx" xmlns:ee="http://schemas.microsoft.com/expression/2010/effects" x:Name="window" x:Class="WpfUI.PlayerWindow"
+        xmlns:ed="http://schemas.microsoft.com/expression/2010/drawing" xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions" xmlns:Custom="http://schemas.awesomium.com/winfx" xmlns:ee="http://schemas.microsoft.com/expression/2010/effects" x:Name="window" x:Class="VkMusic.UI.PlayerWindow"
         mc:Ignorable="d"
         Title="PlayerWindow" Height="117" Width="354.333" ResizeMode="NoResize" Background="{x:Null}" AllowsTransparency="True" WindowStyle="None" FontFamily="Tahoma" Custom:WebControlService.ShowDesignTimeLogo="False" Icon="Images/32_blu.ico">
     <Window.Resources>

@@ -36,7 +36,7 @@
     <Grid>
 
         <TextBlock HorizontalAlignment="Left" Margin="84,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"><Run Text="Версия: "/><InlineUIContainer>
-        		<TextBlock TextWrapping="Wrap" Text="{x:Static local:HGVersion.Version}"/>
+        		<TextBlock TextWrapping="Wrap" Text=""/>
         	</InlineUIContainer></TextBlock>
         <local:LinkButton Margin="84,42,0,0" HorizontalAlignment="Left" Width="181" Text="Репозиторий" FontSize="20" NavigateUrl="https://bitbucket.org/bratishki/vkmusic" Height="36" VerticalAlignment="Top" />
         <local:LinkButton Margin="65,78,0,0" HorizontalAlignment="Left" Width="181" Text="Группа Вконтакте" FontSize="20" NavigateUrl="https://vk.com/musicsync" Height="33" VerticalAlignment="Top" />

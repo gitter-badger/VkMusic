@@ -3,6 +3,7 @@ using System.IO;
 
 namespace VkMusicSync
 {
+
     public static class AppPaths
     {
         // TODO do something with this class, contains globals for two assemblies

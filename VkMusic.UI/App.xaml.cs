@@ -1,19 +1,13 @@
-﻿using DAL.Repository.Abstract;
-using DAL.Repository.XMLRepository;
-using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
+﻿using System;
 using System.IO;
-using System.Linq;
 using System.Threading;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Media;
 using System.Windows.Threading;
 using VkMusicSync;
+using WpfUI;
 
-namespace WpfUI
+namespace VkMusic.UI
 {
     /// <summary>
     /// Interaction logic for App.xaml
@@ -126,7 +120,7 @@ namespace WpfUI
 
         protected override void OnExit(ExitEventArgs e)
         {
-            WpfUI.Properties.Settings.Default.Save();
+            VkMusic.UI.Properties.Settings.Default.Save();
             try
             {
                 single.ReleaseMutex();
