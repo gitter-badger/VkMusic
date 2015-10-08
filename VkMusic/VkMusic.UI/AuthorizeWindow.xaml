@@ -1,0 +1,12 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:awe="http://schemas.awesomium.com/winfx" x:Class="WpfUI.AuthorizeWindow"
+        xmlns:core="clr-namespace:Awesomium.Core;assembly=Awesomium.Core"
+        Title="Авторизация вконтакте" Height="420" Width="690">
+    <Window.Resources>
+    </Window.Resources>
+    <Grid>
+        <awe:WebControl x:Name="webBrowser"/>
+    </Grid>
+</Window>

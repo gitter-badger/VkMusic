@@ -1,0 +1,62 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:tb="http://www.hardcodet.net/taskbar" x:Class="WpfUI.MainWindow"
+        xmlns:local="clr-namespace:WpfUI"
+        Title="О программе VkMusicSync" Height="292" Width="302" Icon="Images/32_blu.ico" WindowStyle="SingleBorderWindow" Closing="Window_Closing" ResizeMode="NoResize">
+    <Window.Resources>
+        <Style
+    x:Key="LinkButton"
+    TargetType="Button">
+            <Setter
+        Property="Template">
+                <Setter.Value>
+                    <ControlTemplate
+                TargetType="Button">
+                        <TextBlock
+                    TextDecorations="Underline">
+                <ContentPresenter /></TextBlock>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter
+        Property="Foreground"
+        Value="Blue" />
+            <Style.Triggers>
+                <Trigger
+            Property="IsMouseOver"
+            Value="true">
+                    <Setter
+                Property="Foreground"
+                Value="Red" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    <Grid>
+
+        <TextBlock HorizontalAlignment="Left" Margin="84,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"><Run Text="Версия: "/><InlineUIContainer>
+        		<TextBlock TextWrapping="Wrap" Text="{x:Static local:HGVersion.Version}"/>
+        	</InlineUIContainer></TextBlock>
+        <local:LinkButton Margin="84,42,0,0" HorizontalAlignment="Left" Width="181" Text="Репозиторий" FontSize="20" NavigateUrl="https://bitbucket.org/bratishki/vkmusic" Height="36" VerticalAlignment="Top" />
+        <local:LinkButton Margin="65,78,0,0" HorizontalAlignment="Left" Width="181" Text="Группа Вконтакте" FontSize="20" NavigateUrl="https://vk.com/musicsync" Height="33" VerticalAlignment="Top" />
+        <RichTextBox IsReadOnly="True" IsDocumentEnabled="True" Margin="0,125,0,0" >
+            <FlowDocument>
+                <Paragraph>
+                    <Bold>
+                        <Run Text="Выражаем благодарность за вклад в развитие проекта:"/>
+                    </Bold>
+                </Paragraph>
+                <Paragraph LineHeight="6">
+                    <Bold>
+                        <Run Text="Администрации группы"/>
+                    </Bold>
+                </Paragraph>
+                <Paragraph>
+                    <local:LinkButton FontSize="12" Text="Программирование и разработка | itea.pro" NavigateUrl="https://vk.com/iteapro" />
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+    </Grid>
+
+</Window>
