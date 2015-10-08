@@ -11,6 +11,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VkMusic.UI", "VkMusic.UI\Vk
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VkMusic.UnitTestProject", "VkMusic.UnitTestProject\VkMusic.UnitTestProject.csproj", "{BC836C34-E61C-489B-9638-59984A9A8D07}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{A3E9B41E-0DAF-48DF-9D99-2C0781695AEE}"
+	ProjectSection(SolutionItems) = preProject
+		lib\Awesomium.Core.dll = lib\Awesomium.Core.dll
+		lib\Awesomium.Windows.Controls.dll = lib\Awesomium.Windows.Controls.dll
+		lib\Hardcodet.Wpf.TaskbarNotification.dll = lib\Hardcodet.Wpf.TaskbarNotification.dll
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
