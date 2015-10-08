@@ -11,4 +11,4 @@ build:
   verbosity: minimal
   
 before_build:
-  - nuget restore
+  - nuget restore VkMusic.sln
