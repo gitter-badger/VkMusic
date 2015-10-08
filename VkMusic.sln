@@ -13,9 +13,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VkMusic.UnitTestProject", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{A3E9B41E-0DAF-48DF-9D99-2C0781695AEE}"
 	ProjectSection(SolutionItems) = preProject
+		lib\avcodec-53.dll = lib\avcodec-53.dll
+		lib\avformat-53.dll = lib\avformat-53.dll
+		lib\avutil-51.dll = lib\avutil-51.dll
 		lib\Awesomium.Core.dll = lib\Awesomium.Core.dll
+		lib\awesomium.dll = lib\awesomium.dll
+		lib\Awesomium.Mono.dll = lib\Awesomium.Mono.dll
 		lib\Awesomium.Windows.Controls.dll = lib\Awesomium.Windows.Controls.dll
+		lib\Awesomium.Windows.Forms.dll = lib\Awesomium.Windows.Forms.dll
 		lib\Hardcodet.Wpf.TaskbarNotification.dll = lib\Hardcodet.Wpf.TaskbarNotification.dll
+		lib\libEGL.dll = lib\libEGL.dll
+		lib\libGLESv2.dll = lib\libGLESv2.dll
+		lib\xinput9_1_0.dll = lib\xinput9_1_0.dll
 	EndProjectSection
 EndProject
 Global
