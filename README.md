@@ -1,4 +1,6 @@
 # VkMusic
+
+[![Join the chat at https://gitter.im/reflash/VkMusic](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/reflash/VkMusic?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 This repository is a fork of BitBucket repository [bratishki/vkmusic](https://bitbucket.org/bratishki/vkmusic)
 
 [![Build status](https://ci.appveyor.com/api/projects/status/q35qjms3bky24wlg?svg=true)](https://ci.appveyor.com/project/reflash/vkmusic)
